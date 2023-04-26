@@ -1,4 +1,4 @@
-## Word Embeddings and Sentiment Analysis
+# Word Embeddings and Sentiment Analysis
 
 This project aims to explore unsupervised learning techniques using pre-trained word embeddings and improve sentiment classification performance through the use of word embeddings.
 
