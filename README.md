@@ -2,6 +2,14 @@
 
 This project aims to explore unsupervised learning techniques using pre-trained word embeddings and improve sentiment classification performance through the use of word embeddings.
 
+# Data Set
+
+Please note that the data set used for training and testing the model is not included in this repository. The two data sets required to run the code are 'IA3-train.csv" and "IA3-dev.csv", and each is composed of two columns: one with the sentiment (0 or 1) and the second column with the text of the tweet.
+
+You will need to provide your own data set in the same format if you want to use the code in this repository. Make sure that the file names and column names match exactly with the ones specified above. The first column has to be "sentiment" and the second column "text".
+
+If you have any questions or issues regarding the data set, please feel free to contact me.
+
 # Data
 
 The GloVe word embedding is used in this project, which is a popular word embedding that is pre-trained using large amounts of unlabeled text. To avoid dealing with the full size of the GloVe embeddings, a reduced subset of GloVe embeddings is provided, which corresponds to the intersection of the Twitter sentiment dataset’s vocabulary and the full GloVe vocabulary. A file named "GloVe Embedder data.txt" contains the embeddings, and "GloVe Embedder.py" is used to handle loading the embeddings and finding nearest neighbors.
