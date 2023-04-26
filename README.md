@@ -16,10 +16,10 @@ The GloVe word embedding is used in this project, which is a popular word embedd
 
 # Explore Word Embeddings
 
-##Build Data Set
+## Build Data Set
 A data set of 150 words is built to visualize and play with. The initial set of seed words is "flight", "good", "terrible", "help", and "late". For each seed word, the 29 most similar words are found based on the word embedding using Euclidean distance, resulting in five clusters. The 29 most similar words for each seed word are listed in the report.
 
-##Dimension Reduction and Visualization
+## Dimension Reduction and Visualization
 Different dimension reduction and visualization techniques are explored in this part.
 
 1. PCA is applied to the 150 words, and the results are visualized in a 2-D space. Each seed word (and the words similar to that seed word) is assigned a distinct color. The resulting visualization shows five distinct clusters.
